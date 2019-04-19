@@ -40,8 +40,6 @@ public class ClassLoaderDome {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-
-
     }
 
 }

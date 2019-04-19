@@ -106,10 +106,9 @@ public class SingletonDome {
     public enum Singleton {
         INSTANCE;
         public void test() {
-
+            System.err.println("singleton");
         }
     }
-
 
     public static void main(String[] args) {
         Singleton.INSTANCE.test();
