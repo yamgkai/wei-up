@@ -1,5 +1,8 @@
 package com.wei.domain;
 
+/**
+ * @author 11613
+ */
 public class UserDO {
 
     private Long id;
