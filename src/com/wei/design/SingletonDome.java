@@ -13,6 +13,7 @@ public class SingletonDome {
     }
 
     // 2、饿汉式（静态代码块）[可用]
+
     private static SingletonDome singletonDome;
 
     static {
@@ -38,6 +39,7 @@ public class SingletonDome {
 
     // 4、懒汉式(线程安全，同步方法)[不推荐用]
     // 而其实这个方法只执行一次实例化代码就够了，后面的想获得该类实例，直接return就行了。
+
     public static synchronized SingletonDome getInstance4() {
         if (singletonDome == null) {
             singletonDome = new SingletonDome();
@@ -51,6 +53,7 @@ public class SingletonDome {
     // 跟第3种实现方式遇到的情形一致，
     // 假如一个线程进入了if (singleton == null)判断语句块，
     // 还未来得及往下执行，另一个线程也通过了这个判断语句，这时便会产生多个实例。
+
     public static SingletonDome getInstance5() {
         if (singletonDome == null) {
             synchronized (SingletonDome.class) {
@@ -65,6 +68,7 @@ public class SingletonDome {
     // 如代码中所示，我们进行了两次if (singleton == null)检查，
     // 这样就可以保证线程安全了。这样，实例化代码只用执行一次，
     // 后面再次访问时，判断if (singleton == null)，直接return实例化对象。
+
     public static SingletonDome getInstance6() {
         if (singletonDome == null) {
             synchronized (SingletonDome.class) {
@@ -84,6 +88,7 @@ public class SingletonDome {
     // 才会装载SingletonInstance类，从而完成Singleton的实例化。
     // 类的静态属性只会在第一次加载类的时候初始化，所以在这里，JVM帮助我们保证了线程的安全性，在类进行初始化时，别的线程是无法进入的。
     // 优点：避免了线程不安全，延迟加载，效率高。
+
     private static class SingletonInstance {
         private static final SingletonDome INSTANCE = new SingletonDome();
     }
@@ -103,7 +108,11 @@ public class SingletonDome {
     // 创建对象时耗时过多或耗费资源过多，但又经常用到的对象；
     // 工具类对象；
     // 频繁访问数据库或文件的对象。
+
     public enum Singleton {
+        /**
+         * 获取实例
+         */
         INSTANCE;
         public void test() {
             System.err.println("singleton");
