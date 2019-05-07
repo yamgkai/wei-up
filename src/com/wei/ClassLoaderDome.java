@@ -6,7 +6,6 @@ package com.wei;
  */
 public class ClassLoaderDome {
 
-
     public static void main(String[] args) {
         new ClassLoaderDome().testClassLoader();
     }
