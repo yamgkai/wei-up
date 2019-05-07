@@ -1,6 +1,6 @@
 package com.wei.dao;
 
-import com.wei.domain.UserDO;
+import com.wei.entity.UserDO;
 
 /**
  * @author 11613
@@ -12,5 +12,5 @@ public interface UserDAO {
      *
      * @return UserDO
      */
-    UserDO getUserDO();
+    UserDO getUserDO(Long id);
 }
