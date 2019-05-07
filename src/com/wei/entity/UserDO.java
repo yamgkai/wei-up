@@ -1,4 +1,4 @@
-package com.wei.domain;
+package com.wei.entity;
 
 public class UserDO {
 

@@ -1,6 +1,6 @@
 package com.wei.dao;
 
-import com.wei.domain.UserDO;
+import com.wei.entity.UserDO;
 
 public class UserDAOImpl implements UserDAO {
 
