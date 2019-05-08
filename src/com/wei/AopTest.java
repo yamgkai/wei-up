@@ -3,8 +3,13 @@ package com.wei;
 import com.wei.dao.UserDAO;
 import com.wei.dao.UserDAOImpl;
 import com.wei.entity.UserDO;
+import com.wei.util.ExcelUtils;
 import org.junit.Test;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
@@ -35,5 +40,20 @@ public class AopTest {
         };
         UserDAO userDAO = (UserDAO) Proxy.newProxyInstance(UserDAOImpl.class.getClassLoader(), UserDAOImpl.class.getInterfaces(), invocationHandler);
         System.err.println(userDAO.getUserDO(1L).getName());
+    }
+
+
+    @Test
+    public void test2() {
+        MultipartFile multipartFile = null;
+        File file = new File("C:\\Users\\fqkj\\Desktop\\市场成交数据.xls");
+        InputStream inputStream = null;
+        try {
+            //inputStream = multipartFile.getInputStream();
+            inputStream = new FileInputStream(file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        ExcelUtils.readExcelTitle(inputStream);
     }
 }

@@ -5,9 +5,7 @@ import org.apache.poi.ss.usermodel.*;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -30,7 +28,7 @@ public class ExcelUtils {
      * @param inputStream 输入流
      * @return List<String> 返回list
      */
-    public static List<String> readExcelTitle(InputStream inputStream) {
+    public static Map<Integer, String> readExcelTitle(InputStream inputStream) {
         try {
             wb = new HSSFWorkbook(inputStream);
         } catch (IOException e) {
@@ -40,11 +38,11 @@ public class ExcelUtils {
         row = sheet.getRow(0);
         // 标题总列数
         int colNum = row.getPhysicalNumberOfCells();
-        List<String> list = new ArrayList<>();
+        Map<Integer, String> map = new HashMap<>();
         for (int i = 0; i < colNum; i++) {
-            list.add(row.getCell(i).getCellFormula());
+            map.put(i, row.getCell(i).getStringCellValue());
         }
-        return list;
+        return map;
     }
 
     /**

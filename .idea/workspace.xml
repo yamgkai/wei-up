@@ -1,29 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d67076d-f487-4890-b37f-855743b476e3" name="Default Changelist" comment="单例模式">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wei/AopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2d67076d-f487-4890-b37f-855743b476e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/AopDome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wei/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/dao/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wei/dao/UserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/domain/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wei/entity/UserDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wei-up.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wei-up.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wei/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wei/AopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java" afterDir="false" />
     </list>
     <list id="ec51e40e-1d74-437e-9678-8a50919c596a" name="class loader dome" comment="class loader dome&#10;&#10;(cherry picked from commit 55475251b8289ede508cb3b4fe27aa464b468045)">
       <changelist_data name="WeiEnzhao" email="1161394056@qq.com" date="1555324265000" />
@@ -37,7 +19,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wei/AopTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="48" column="54" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-234">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,12 +79,12 @@
         <option value="$PROJECT_DIR$/src/com/wei/ClassLoaderDome.java" />
         <option value="$PROJECT_DIR$/src/com/wei/design/SingletonDome.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/src/com/wei/AopDome.java" />
         <option value="$PROJECT_DIR$/src/com/wei/aopTest.java" />
         <option value="$PROJECT_DIR$/src/com/wei/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/com/wei/dao/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java" />
         <option value="$PROJECT_DIR$/src/com/wei/AopTest.java" />
       </list>
     </option>
@@ -115,8 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,19 +144,31 @@
               <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
               <item name="wei-up" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wei" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
               <item name="wei-up" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="wei" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="wei-up" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="wei-up" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,8 +178,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557209674329" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557277266546" />
+    <property name="last_opened_file_path" value="C:/WorkSpace/hshb-erp-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -186,35 +209,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExcelUtils">
-    <configuration name="ClassLoaderDome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wei.ClassLoaderDome" />
-      <module name="wei-up" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wei.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExcelUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wei.util.ExcelUtils" />
-      <module name="wei-up" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wei.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperatorDome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wei.OperatorDome" />
+  <component name="RunManager" selected="JUnit.AopTest.test2">
+    <configuration name="AopTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wei-up" />
       <extension name="coverage">
         <pattern>
@@ -222,46 +218,38 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonDome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wei.design.SingletonDome" />
-      <module name="wei-up" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wei.design.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExcelUtils.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wei-up" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wei.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wei.util" />
-      <option name="MAIN_CLASS_NAME" value="com.wei.util.ExcelUtils" />
+      <option name="PACKAGE_NAME" value="com.wei" />
+      <option name="MAIN_CLASS_NAME" value="com.wei.AopTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AopTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wei-up" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wei" />
+      <option name="MAIN_CLASS_NAME" value="com.wei.AopTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AopTest.test1" />
+      <item itemvalue="JUnit.AopTest.test2" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExcelUtils" />
-        <item itemvalue="JUnit.ExcelUtils.test1" />
-        <item itemvalue="Application.ClassLoaderDome" />
-        <item itemvalue="Application.SingletonDome" />
-        <item itemvalue="Application.OperatorDome" />
+        <item itemvalue="JUnit.AopTest.test2" />
+        <item itemvalue="JUnit.AopTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -292,28 +280,50 @@
       <option name="project" value="LOCAL" />
       <updated>1555487991890</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1557275682761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557275682761</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExcelUtils_test1 - 2019.05.07 at 13h 32m 55s.xml">
-      <configuration name="ExcelUtils.test1" configurationId="JUnit" />
+    <history-entry file="AopTest_test2 - 2019.05.08 at 08h 47m 31s.xml">
+      <configuration name="AopTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExcelUtils_test1 - 2019.05.07 at 13h 33m 08s.xml">
-      <configuration name="ExcelUtils.test1" configurationId="JUnit" />
+    <history-entry file="AopTest_test2 - 2019.05.08 at 08h 47m 56s.xml">
+      <configuration name="AopTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExcelUtils_test1 - 2019.05.07 at 13h 33m 26s.xml">
-      <configuration name="ExcelUtils.test1" configurationId="JUnit" />
+    <history-entry file="AopTest_test2 - 2019.05.08 at 08h 48m 19s.xml">
+      <configuration name="AopTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExcelUtils_test1 - 2019.05.07 at 13h 33m 38s.xml">
-      <configuration name="ExcelUtils.test1" configurationId="JUnit" />
+    <history-entry file="AopTest_test2 - 2019.05.08 at 08h 48m 50s.xml">
+      <configuration name="AopTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExcelUtils_test1 - 2019.05.07 at 13h 33m 47s.xml">
-      <configuration name="ExcelUtils.test1" configurationId="JUnit" />
+    <history-entry file="AopTest_test2 - 2019.05.08 at 08h 49m 24s.xml">
+      <configuration name="AopTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test2 - 2019.05.08 at 08h 50m 43s.xml">
+      <configuration name="AopTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test2 - 2019.05.08 at 08h 52m 56s.xml">
+      <configuration name="AopTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test2 - 2019.05.08 at 08h 53m 11s.xml">
+      <configuration name="AopTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test2 - 2019.05.08 at 08h 53m 26s.xml">
+      <configuration name="AopTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopTest_test2 - 2019.05.08 at 08h 54m 20s.xml">
+      <configuration name="AopTest.test2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44009000" />
+    <option name="totallyTimeSpent" value="45569000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -326,17 +336,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3054371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27566963" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31026787" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29799107" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,7 +415,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="单例模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例模式" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/linker/Bootstrap.class">
@@ -507,17 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wei/ClassLoaderDome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-337">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wei/OperatorDome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
@@ -539,34 +541,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://C:/WorkSpace/repository/org/apache/poi/poi/3.8/poi-3.8.jar!/org/apache/poi/ss/usermodel/Workbook.class" />
+    <entry file="jar://C:/WorkSpace/repository/org/apache/poi/poi/3.8/poi-3.8.jar!/org/apache/poi/ss/usermodel/Cell.class" />
+    <entry file="file://$PROJECT_DIR$/src/com/wei/ClassLoaderDome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/WorkSpace/repository/org/apache/poi/poi/3.8/poi-3.8.jar!/org/apache/poi/ss/usermodel/Workbook.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/WorkSpace/repository/org/apache/poi/poi/3.8/poi-3.8.jar!/org/apache/poi/ss/usermodel/Cell.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        <state relative-caret-position="26">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="29" />
+        <state relative-caret-position="315">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wei/AopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="48" column="54" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="54" />
         </state>
       </provider>
     </entry>
