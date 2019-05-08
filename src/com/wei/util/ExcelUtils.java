@@ -19,10 +19,6 @@ import java.util.Map;
  */
 public class ExcelUtils {
 
-    public static void main(String[] args) {
-
-    }
-
     private static Workbook wb;
     private static Sheet sheet;
     private static Row row;
@@ -83,7 +79,6 @@ public class ExcelUtils {
         }
         return content;
     }
-
 
     private static Object getCellFormatValue(Cell cell) {
         Object cellValue;
