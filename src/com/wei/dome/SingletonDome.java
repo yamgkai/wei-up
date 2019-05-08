@@ -1,4 +1,4 @@
-package com.wei.design;
+package com.wei.dome;
 
 /**
  * 单例模式

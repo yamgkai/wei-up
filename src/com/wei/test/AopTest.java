@@ -1,4 +1,4 @@
-package com.wei;
+package com.wei.test;
 
 import com.wei.dao.UserDAO;
 import com.wei.dao.UserDAOImpl;

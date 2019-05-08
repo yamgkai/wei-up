@@ -1,4 +1,4 @@
-package com.wei;
+package com.wei.dome;
 
 /**
  * 类加载器DOME
@@ -36,7 +36,7 @@ public class ClassLoaderDome {
         // 然后如果想要使用Extension类加载器加载这个类
         // 将会抛出java.lang.ClassNotFoundException异常
         try {
-            Class.forName("com.wei.ClassLoaderDome", true, ClassLoaderDome.class.getClassLoader().getParent());
+            Class.forName("com.wei.dome.ClassLoaderDome", true, ClassLoaderDome.class.getClassLoader().getParent());
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

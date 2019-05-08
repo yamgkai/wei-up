@@ -1,4 +1,4 @@
-package com.wei;
+package com.wei.test;
 
 import org.junit.Test;
 
@@ -7,7 +7,7 @@ import org.junit.Test;
  *
  * @author 11613
  */
-public class OperatorDome {
+public class OperatorTest {
 
     @org.junit.Test
     public void test1() {
@@ -19,7 +19,7 @@ public class OperatorDome {
     }
 
     @Test
-    void test2() {
+    public void test2() {
         // & 都为1 时得1
         // 二进制：0000,0000
         // 十进制：0
@@ -28,7 +28,7 @@ public class OperatorDome {
     }
 
     @Test
-    void test3() {
+    public void test3() {
         // >> 右移
         // 0000,1000
         // 0000,0010
@@ -40,7 +40,7 @@ public class OperatorDome {
     }
 
     @Test
-    void test4() {
+    public void test4() {
         // <<左移
         // 正数或者负数左移 低位都是用0补
         // 0000,1000
@@ -54,7 +54,7 @@ public class OperatorDome {
     }
 
     @Test
-    void test5() {
+    public void test5() {
         // >>> 无符号右移
         // 正数负数都用0进行补位
         int i = 8 >>> 2;

@@ -1,4 +1,4 @@
-package com.wei;
+package com.wei.factory;
 
 
 public class BeanFactory<T> {
