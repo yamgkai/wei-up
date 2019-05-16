@@ -2,9 +2,16 @@ package com.wei.util;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,6 +27,9 @@ public class ExcelUtils {
     private static Workbook wb;
     private static Sheet sheet;
     private static Row row;
+
+    private static final String EXCEL_XLS = "xls";
+    private static final String EXCEL_XLSX = "xlsx";
 
 
     /**
@@ -51,13 +61,13 @@ public class ExcelUtils {
      * @param inputStream 输入流
      * @return Map<行, Map < 下标, Object>>
      */
-    public static Map<Integer, Map<Integer, Object>> readExcelContent(InputStream inputStream) {
+    public static Map<Integer, Map<Integer, String>> readExcelContent(InputStream inputStream) {
         try {
             wb = new HSSFWorkbook(inputStream);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Map<Integer, Map<Integer, Object>> content = new HashMap<>();
+        Map<Integer, Map<Integer, String>> content = new HashMap<>();
         sheet = wb.getSheetAt(0);
         // 得到总行数
         int rowNum = sheet.getLastRowNum();
@@ -67,9 +77,9 @@ public class ExcelUtils {
         for (int i = 1; i <= rowNum; i++) {
             row = sheet.getRow(i);
             int j = 0;
-            Map<Integer, Object> cellValue = new HashMap<>();
+            Map<Integer, String> cellValue = new HashMap<>();
             while (j < colNum) {
-                Object obj = getCellFormatValue(row.getCell(j));
+                String obj = getCellFormatValue(row.getCell(j)).toString();
                 cellValue.put(j, obj);
                 j++;
             }
@@ -78,8 +88,8 @@ public class ExcelUtils {
         return content;
     }
 
-    private static Object getCellFormatValue(Cell cell) {
-        Object cellValue;
+    private static String getCellFormatValue(Cell cell) {
+        String cellValue = "";
         if (cell != null) {
             // 判断当前Cell的Type
             switch (cell.getCellType()) {
@@ -88,8 +98,12 @@ public class ExcelUtils {
                 case Cell.CELL_TYPE_FORMULA: {
                     // 判断当前的cell是否为Date
                     if (DateUtil.isCellDateFormatted(cell)) {
-                        cellValue = cell.getDateCellValue();
-                    } else {
+                        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("YYYY-MM-dd HH:mm:ss");
+                        Instant instant = cell.getDateCellValue().toInstant();
+                        ZoneId zoneId = ZoneId.systemDefault();
+                        LocalDateTime localDateTime = LocalDateTime.ofInstant(instant, zoneId);
+                        cellValue = dateTimeFormatter.format(localDateTime);
+                    }else {
                         // 如果是纯数字
                         // 取得当前Cell的数值
                         cellValue = String.valueOf(cell.getNumericCellValue());
@@ -105,10 +119,28 @@ public class ExcelUtils {
                     // 默认的Cell值
                     cellValue = "";
             }
-        } else {
-            cellValue = "";
         }
         return cellValue;
+    }
+
+    /**
+     * 判断文件类型
+     *
+     * @param file
+     * @return
+     * @throws IOException
+     */
+    public static Workbook getWorkbok(File file) throws IOException {
+        Workbook wb = null;
+        FileInputStream in = new FileInputStream(file);
+        //2003
+        if (file.getName().endsWith(EXCEL_XLS)) {
+            wb = new HSSFWorkbook(in);
+            //2007/2010
+        } else if (file.getName().endsWith(EXCEL_XLSX)) {
+            wb = new XSSFWorkbook(in);
+        }
+        return wb;
     }
 
 }
