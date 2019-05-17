@@ -79,7 +79,7 @@ public class ExcelUtils {
             int j = 0;
             Map<Integer, String> cellValue = new HashMap<>();
             while (j < colNum) {
-                String obj = getCellFormatValue(row.getCell(j)).toString();
+                String obj = getCellFormatValue(row.getCell(j));
                 cellValue.put(j, obj);
                 j++;
             }
