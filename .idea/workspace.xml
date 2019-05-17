@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-      <list default="true" id="2d67076d-f487-4890-b37f-855743b476e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java" afterDir="false" />
-    </list>
+    <list default="true" id="2d67076d-f487-4890-b37f-855743b476e3" name="Default Changelist" comment="" />
     <list id="ec51e40e-1d74-437e-9678-8a50919c596a" name="class loader dome" comment="class loader dome&#10;&#10;(cherry picked from commit 55475251b8289ede508cb3b4fe27aa464b468045)">
       <changelist_data name="WeiEnzhao" email="1161394056@qq.com" date="1555324265000" />
     </list>
@@ -21,25 +18,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wei/test/AopTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="90" column="54" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -89,6 +70,7 @@
         <option value="$PROJECT_DIR$/src/com/wei/entity/EstateDealDO.java" />
         <option value="$PROJECT_DIR$/src/com/wei/test/ExcelTest.java" />
         <option value="$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -144,42 +126,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wei-up" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wei-up" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wei-up" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wei" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wei-up" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wei" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wei-up" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wei" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +199,7 @@
       <workItem from="1557966660953" duration="2969000" />
       <workItem from="1557970712963" duration="864000" />
       <workItem from="1557985633111" duration="109000" />
-      <workItem from="1558081719904" duration="987000" />
+      <workItem from="1558081719904" duration="1236000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式">
       <created>1555487991889</created>
@@ -296,7 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557971213723</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="excel工具类修改">
+      <created>1558082769117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558082769117</updated>
+    </task>
+    <task id="LOCAL-00008" summary="excel工具类修改">
+      <created>1558082888250</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558082888250</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -332,7 +293,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63761000" />
+    <option name="totallyTimeSpent" value="64010000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -345,9 +306,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32675907" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32675907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,7 +322,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.328125" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32924107" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -461,20 +421,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/FileInputStream.java" />
     <entry file="jar://C:/WorkSpace/repository/org/apache/poi/poi/3.8/poi-3.8.jar!/org/apache/poi/ss/usermodel/Workbook.class" />
     <entry file="jar://C:/WorkSpace/repository/org/apache/poi/poi/3.8/poi-3.8.jar!/org/apache/poi/ss/usermodel/Cell.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/wei/dome/SingletonDome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wei/dome/ClassLoaderDome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -527,33 +473,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/wei/entity/EstateDealDO.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wei/test/OperatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wei/test/ExcelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wei/test/AopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.8/poi-3.8.jar!/org/apache/poi/ss/usermodel/DateUtil.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -563,13 +482,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="2340">
           <caret line="90" column="54" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wei/test/AopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wei/test/ExcelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wei/test/OperatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-753">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wei/dome/ClassLoaderDome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wei/dome/SingletonDome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2197">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
