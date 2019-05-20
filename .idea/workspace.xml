@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d67076d-f487-4890-b37f-855743b476e3" name="Default Changelist" comment="" />
+    <list default="true" id="2d67076d-f487-4890-b37f-855743b476e3" name="Default Changelist" comment="excel工具类修改" />
     <list id="ec51e40e-1d74-437e-9678-8a50919c596a" name="class loader dome" comment="class loader dome&#10;&#10;(cherry picked from commit 55475251b8289ede508cb3b4fe27aa464b468045)">
       <changelist_data name="WeiEnzhao" email="1161394056@qq.com" date="1555324265000" />
     </list>
@@ -17,13 +17,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -199,7 +193,7 @@
       <workItem from="1557966660953" duration="2969000" />
       <workItem from="1557970712963" duration="864000" />
       <workItem from="1557985633111" duration="109000" />
-      <workItem from="1558081719904" duration="1236000" />
+      <workItem from="1558081719904" duration="1400000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式">
       <created>1555487991889</created>
@@ -257,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558082888250</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="excel工具类修改">
+      <created>1558083037964</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558083037964</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -293,7 +294,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64010000" />
+    <option name="totallyTimeSpent" value="64174000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -307,7 +308,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32675907" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32675907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -322,7 +323,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.55803573" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32924107" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
