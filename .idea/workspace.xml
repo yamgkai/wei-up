@@ -6,45 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="2d67076d-f487-4890-b37f-855743b476e3" name="Default Changelist" comment="excel工具类修改" />
-=======
     <list default="true" id="2d67076d-f487-4890-b37f-855743b476e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/wei_up_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/wei_up_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Javax_servlet_servlet_api_3_0_alpha_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/wei-up.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wei/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/dao/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wei/dao/UserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/dome/ClassLoaderDome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wei/dome/ClassLoaderDome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/dome/SingletonDome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wei/dome/SingletonDome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/entity/EstateDealDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wei/entity/EstateDealDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/entity/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wei/entity/UserDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wei/factory/BeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/test/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wei/test/AopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/test/ExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wei/test/ExcelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/test/OperatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wei/test/OperatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wei/util/ExcelUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wei-up.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wei-up.iml" afterDir="false" />
     </list>
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
     <list id="ec51e40e-1d74-437e-9678-8a50919c596a" name="class loader dome" comment="class loader dome&#10;&#10;(cherry picked from commit 55475251b8289ede508cb3b4fe27aa464b468045)">
       <changelist_data name="WeiEnzhao" email="1161394056@qq.com" date="1555324265000" />
     </list>
@@ -60,7 +24,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wei/dao/UserDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,11 +77,8 @@
         <option value="$PROJECT_DIR$/src/com/wei/test/AopTest.java" />
         <option value="$PROJECT_DIR$/src/com/wei/dto/EstateDealDTO.java" />
         <option value="$PROJECT_DIR$/src/com/wei/entity/EstateDealDO.java" />
-        <option value="$PROJECT_DIR$/src/com/wei/test/ExcelTest.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/com/wei/util/ExcelUtils.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
+        <option value="$PROJECT_DIR$/src/com/wei/test/ExcelTest.java" />
         <option value="D:/Program Files/apache-maven-3.2.1/conf/settings.xml" />
         <option value="D:/Program Files/apache-maven-3.6.1/conf/settings.xml" />
         <option value="$PROJECT_DIR$/src/com/wei/servlet/ServletDome.java" />
@@ -125,7 +96,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/wei/servlet/ServletExtendsDome.java" />
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
       </list>
     </option>
   </component>
@@ -160,15 +130,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-<<<<<<< HEAD
-    <option name="x" value="227" />
-    <option name="y" value="43" />
-    <option name="width" value="1582" />
-=======
     <option name="x" value="225" />
     <option name="y" value="40" />
     <option name="width" value="1585" />
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
     <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
@@ -176,11 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-=======
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -192,20 +151,53 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
           <expand>
             <path>
               <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
               <item name="wei-up" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wei-up" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wei-up" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wei-up" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wei-up" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wei-up" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wei-up" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wei" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,14 +209,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557279124405" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
     <property name="last_opened_file_path" value="D:/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -232,7 +220,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -262,8 +250,6 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-=======
   <component name="RunManager" selected="Tomcat Server.tomcat 7">
     <configuration name="wei-up [tomcat7:run-war]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
@@ -371,7 +357,6 @@
       <item itemvalue="Tomcat Server.tomcat 7" />
     </list>
   </component>
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -400,10 +385,6 @@
       <workItem from="1557904535877" duration="7495000" />
       <workItem from="1557966660953" duration="2969000" />
       <workItem from="1557970712963" duration="864000" />
-<<<<<<< HEAD
-      <workItem from="1557985633111" duration="109000" />
-      <workItem from="1558081719904" duration="1400000" />
-=======
       <workItem from="1558176411580" duration="2034000" />
       <workItem from="1558179107029" duration="303000" />
       <workItem from="1558179503474" duration="16000" />
@@ -411,8 +392,8 @@
       <workItem from="1558197351698" duration="469000" />
       <workItem from="1558226250367" duration="7119000" />
       <workItem from="1558242141733" duration="2120000" />
-      <workItem from="1558261923263" duration="3553000" />
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
+      <workItem from="1558261923263" duration="3679000" />
+      <workItem from="1558711798081" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式">
       <created>1555487991889</created>
@@ -456,28 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557971213723</updated>
     </task>
-    <task id="LOCAL-00007" summary="excel工具类修改">
-      <created>1558082769117</created>
+    <task id="LOCAL-00007" summary="webapp">
+      <created>1558275442210</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1558082769117</updated>
+      <updated>1558275442210</updated>
     </task>
-    <task id="LOCAL-00008" summary="excel工具类修改">
-      <created>1558082888250</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1558082888250</updated>
-    </task>
-    <task id="LOCAL-00009" summary="excel工具类修改">
-      <created>1558083037964</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1558083037964</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -513,11 +480,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="64174000" />
-=======
-    <option name="totallyTimeSpent" value="90502000" />
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
+    <option name="totallyTimeSpent" value="90666000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -529,15 +492,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32675907" />
-=======
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.288874" />
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29289544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -553,21 +511,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.55803573" />
-=======
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.30882353" />
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.30882353" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32924107" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32794118" />
       <window_info anchor="bottom" id="Spring" order="13" />
-<<<<<<< HEAD
-=======
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32941177" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -631,7 +582,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="package update" />
     <MESSAGE value="excel工具类修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="excel工具类修改" />
+    <MESSAGE value="webapp" />
+    <option name="LAST_COMMIT_MESSAGE" value="webapp" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/linker/Bootstrap.class" />
@@ -660,9 +612,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/time/format/DateTimeFormatter.java" />
     <entry file="file://$PROJECT_DIR$/wei-up.iml" />
     <entry file="file://$PROJECT_DIR$/src/com/wei/dto/EstateDealDTO.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://D:/Program Files/apache-maven-3.2.1/conf/settings.xml" />
     <entry file="file://D:/Program Files/apache-maven-3.6.1/conf/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -671,16 +620,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/FilterInputStream.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/FileInputStream.java" />
-    <entry file="jar://C:/WorkSpace/repository/org/apache/poi/poi/3.8/poi-3.8.jar!/org/apache/poi/ss/usermodel/Workbook.class" />
-    <entry file="jar://C:/WorkSpace/repository/org/apache/poi/poi/3.8/poi-3.8.jar!/org/apache/poi/ss/usermodel/Cell.class" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wei/factory/BeanFactory.java">
-=======
     <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     <entry file="file://$PROJECT_DIR$/src/com/wei/resources.properties" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
@@ -698,7 +637,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
@@ -712,9 +650,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/time/LocalDateTime.java">
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wei/entity/EstateDealDO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -723,7 +658,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wei/entity/UserDO.java">
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
@@ -751,13 +685,6 @@
         <state relative-caret-position="-2106" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wei/dao/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -768,12 +695,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-<<<<<<< HEAD
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.8/poi-3.8.jar!/org/apache/poi/ss/usermodel/DateUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-=======
     <entry file="jar://$PROJECT_DIR$/../../repository/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -808,38 +729,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wei/util/ExcelUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="2340">
-          <caret line="90" column="54" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="54" />
-=======
         <state relative-caret-position="2028">
           <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/com/wei/test/AopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wei/test/ExcelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wei/test/OperatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1508">
@@ -851,38 +753,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/com/wei/test/OperatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-753">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wei/dome/ClassLoaderDome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wei/dome/SingletonDome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2197">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wei/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -913,7 +789,16 @@
           </folding>
         </state>
       </provider>
->>>>>>> 7851b91b4cae7742276bf269c4b8314086c02adf
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wei/dao/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
