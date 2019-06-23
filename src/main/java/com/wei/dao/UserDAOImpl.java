@@ -5,10 +5,10 @@ import com.wei.entity.UserDO;
 /**
  * @author 11613
  */
-public class UserDAOImpl implements UserDAO {
+public class UserDAOImpl implements UserDAO  {
 
     @Override
-    public UserDO getUserDO(Long id) {
+    public UserDO getUserDO(Long id,Integer test) {
         System.err.println("between()...");
         Class<UserDO> userDOClass = UserDO.class;
         UserDO userDO = null;

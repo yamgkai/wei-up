@@ -12,5 +12,5 @@ public interface UserDAO {
      *
      * @return UserDO
      */
-    UserDO getUserDO(Long id);
+    UserDO getUserDO(Long id,Integer test);
 }

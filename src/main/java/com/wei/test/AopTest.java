@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
+import java.util.Arrays;
 
 /**
  * @author Mr.Wei
@@ -27,6 +28,7 @@ public class AopTest {
     public void test1() {
         InvocationHandler invocationHandler = (proxy, method, args) -> {
             System.err.println("before()...");
+            System.err.println(Arrays.toString(args));
             Object invoke = method.invoke(UserDAOImpl.class.newInstance(), args);
             UserDO userDO = (UserDO) invoke;
             System.err.println(userDO.getName());
@@ -34,7 +36,23 @@ public class AopTest {
             return invoke;
         };
         UserDAO userDAO = (UserDAO) Proxy.newProxyInstance(UserDAOImpl.class.getClassLoader(), UserDAOImpl.class.getInterfaces(), invocationHandler);
-        System.err.println(userDAO.getUserDO(1L).getName());
+        System.err.println(userDAO.getUserDO(1L,9).getName());
+    }
+
+
+    @Test
+    public  void test2(){
+        Thread thread = new Thread() {
+            int a= 10;
+
+            public  void test(){
+                System.err.println(a);
+            }
+
+        };
+
+        thread.start();
+
     }
 
 }
