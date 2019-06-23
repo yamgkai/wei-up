@@ -11,6 +11,6 @@
     <title>hello jsp</title>
 </head>
 <body>
-index
+hello word
 </body>
 </html>
