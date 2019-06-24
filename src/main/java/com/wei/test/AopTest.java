@@ -36,23 +36,6 @@ public class AopTest {
             return invoke;
         };
         UserDAO userDAO = (UserDAO) Proxy.newProxyInstance(UserDAOImpl.class.getClassLoader(), UserDAOImpl.class.getInterfaces(), invocationHandler);
-        System.err.println(userDAO.getUserDO(1L,9).getName());
+        System.err.println(userDAO.getUserDO(1L, 9).getName());
     }
-
-
-    @Test
-    public  void test2(){
-        Thread thread = new Thread() {
-            int a= 10;
-
-            public  void test(){
-                System.err.println(a);
-            }
-
-        };
-
-        thread.start();
-
-    }
-
 }
