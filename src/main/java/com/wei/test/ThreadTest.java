@@ -1,5 +1,7 @@
 package com.wei.test;
 
+import com.wei.entity.UserDO;
+import com.wei.service.UserService;
 import org.junit.Test;
 
 import java.util.concurrent.Callable;
@@ -60,8 +62,20 @@ public class ThreadTest {
         Runnable runnable = () -> System.err.println("test");
 
         runnable.run();
+    }
 
-
+    @Test
+    public void test4(){
+        UserService userService = new UserService() {
+            @Override
+            public UserDO getUserDO(String userId) {
+                UserDO userDO=new UserDO();
+                userDO.setId(1L);
+                return userDO;
+            }
+        };
+        UserDO userDO = userService.getUserDO("i");
+        System.err.println(userDO.getId());
     }
 
 }
