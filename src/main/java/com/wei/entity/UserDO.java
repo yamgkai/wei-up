@@ -45,4 +45,15 @@ public class UserDO {
     public void setAddress(String address) {
         this.address = address;
     }
+
+
+    @Override
+    public String toString() {
+        return "UserDO{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                '}';
+    }
 }
