@@ -3,7 +3,7 @@ package com.wei.entity;
 /**
  * @author 11613
  */
-public class UserDO {
+public class UserDO extends BaseDO {
 
     private Long id;
 
@@ -13,22 +13,30 @@ public class UserDO {
 
     private String address;
 
-
-    public Long getId() {
-        return id;
+    public Long getThisId() {
+        return this.id;
     }
 
-    public void setId(Long id) {
+    public UserDO() {
+        System.err.println("userDO 无参构造方法");
+    }
+
+    public UserDO(Long id, String name, Integer age, String address) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
         this.name = name;
+        this.age = age;
+        this.address = address;
+        System.err.println("---");
     }
+
+    {
+        System.err.println("userDO 代码块");
+    }
+
+    static {
+        System.err.println("userDO 静态代码块");
+    }
+
 
     public Integer getAge() {
         return age;

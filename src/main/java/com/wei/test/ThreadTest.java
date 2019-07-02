@@ -4,8 +4,7 @@ import com.wei.entity.UserDO;
 import com.wei.service.UserService;
 import org.junit.Test;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.FutureTask;
+import java.util.concurrent.*;
 
 
 public class ThreadTest {
@@ -65,17 +64,26 @@ public class ThreadTest {
     }
 
     @Test
-    public void test4(){
+    public void test4() {
         UserService userService = new UserService() {
             @Override
             public UserDO getUserDO(String userId) {
-                UserDO userDO=new UserDO();
-                userDO.setId(1L);
+                UserDO userDO = new UserDO();
+                //userDO.setId(1L);
                 return userDO;
             }
         };
         UserDO userDO = userService.getUserDO("i");
         System.err.println(userDO.getId());
+
+
+    }
+
+
+    ExecutorService getExecutorService() {
+        return new ThreadPoolExecutor(10, 10,
+                0L, TimeUnit.MILLISECONDS,
+                new LinkedBlockingQueue<Runnable>());
     }
 
 }
